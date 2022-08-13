@@ -1,0 +1,1166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Raleway;
+}
+
+@font-face {
+    font-family: MullerLight;
+    src: url(../fonts/MullerLight.ttf);
+}
+
+@font-face{
+    font-family:MullerUltraLight;
+    src: url(../fonts/MullerUltraLight.ttf);
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fdfaf3;
+}
+
+.header{
+    position: relative;
+    display: block;
+}
+
+.no-gutter{
+    padding: 0;
+}
+
+.menu{
+    position: relative;
+    font-size: 25px;
+    z-index: 3;
+    color: white;
+}
+
+.navigation{
+    padding: 20px 0 30px 0;
+    
+}
+
+.nav-cntainer{
+    background-color: #182c3dcc;
+}
+
+.number{
+    text-align: right;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.header-number {
+    font-family: MullerLight;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 600;
+    color: #7e7d79;
+}
+
+.header-number a{
+    color: #252525;
+    margin-left: 12px;
+}
+
+
+.fa-phone{
+    color: #7e7d79;
+}
+
+.header .carousel-indicators{
+    justify-content: right;
+    margin-right: 0;
+    margin-bottom: 0;
+    bottom: -60px;
+}
+
+.header .carousel-indicators [data-bs-target]{
+    background-color: #1a444a;
+    opacity: .3;
+}
+
+.header .carousel-indicators .active {
+    opacity: 1;
+}
+
+.title-block {
+    width: 50%;
+    height: 112%;
+    background-color: #182c3dcc;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+}
+
+.pos-rel{
+    position: relative;
+
+}
+
+
+.logo{
+    margin-left: 30px;
+    position: relative;
+    z-index: 3;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 61px;
+    margin-left: 193px;
+    margin-right: 20px;
+}
+.subtitle {
+    font-family: MullerLight;
+    font-size: 14px;
+    margin: 34px 20px 37px 193px;
+    padding-right: 180px;
+}
+
+.title-btn {
+    width: 277px;
+    color: white;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 21px 32px; 
+    background-color: #f8a25a;
+    letter-spacing: 0.1em;
+    margin-left: 193px;
+    margin-right: 20px;
+}
+
+.title-btn img{
+    margin-left: 10px;
+}
+
+.title-links{
+    position: absolute;
+    font-size: 16px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    gap: 36px;
+}
+
+.title-links a{
+    color: #b3b9bf;
+}
+
+.title-links a:hover{
+    color: white;
+    transition: .3s;
+}
+
+.z-index{
+    z-index: 3;
+    margin-left: 0;
+}
+
+.header-768px{
+    display: none;
+    background-image: url(../img/768px/bg-small.png);
+}
+
+.about-us{
+    margin-top: 90px;
+    padding: 100px 0 130px;
+}
+
+.about-number{
+    font-family: 'Playfair Display', serif;
+    font-size: 85px;
+    color: #fe9f529b;
+    text-align: left;
+    margin: 0;
+}
+
+.about-content{
+    padding-right: 20px;
+}
+
+.about-content h3{
+    font-size: 22px;
+    color: #1a292f;
+    font-weight: bold;
+    
+}
+
+.about-we-do{
+    font-size: 16px;
+    color: #838383;
+}
+
+.down{
+    margin-top: 200px;
+}
+
+.living-room{
+    width: 22%;
+    height: 550px;
+    margin-left: 12px;
+    background-image: url(../img/living-room.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+    height: 550px;
+    background-image: url(../img/hall.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.canteen{
+    width: 22%;
+    height: 550px;
+    background-image: url(../img/canteen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hotel{
+    width: 20%;
+    height: 550px;
+    background-image: url(../img/hotel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.subtitle-portfolio {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: #00203a;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.portfolio-768px{
+    display: none;
+}
+
+.portfolio a{
+    display: inline;
+    color: #807f7f;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.portfolio a:hover{
+    font-weight: bold;
+    color: #00203a;
+    border-bottom: 2px solid #00203a;
+    transition: .3s;
+}
+
+.rooms{
+    margin-top: 60px;
+}
+
+.room-title{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 26px 20px 0 30px;
+}
+
+.room-subtitle{
+    font-family: MullerUltraLight;
+    font-size: 14px;
+    color: white;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -10px;
+    bottom: 65px;
+}
+
+.rooms button{
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    background-color: #fbbd83dd;
+    font-size: 25px;
+    color: white;
+}
+
+.our-projects{
+    padding: 135px 0 150px;
+}
+
+.our-projects ul a{
+    font-size: 18px;
+    color: #7d7d7d;
+    margin-bottom: 70px;
+    padding-right: 80px;
+    font-weight: light;
+}
+
+.our-projects ul a:hover{
+    padding-right: 40px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: #00203a;
+    transition: .3s;
+}
+
+.our-projects img{
+    width: 100%;
+}
+
+.example-content {
+    padding-top: 60px;
+}
+.example-name {
+    width: 500px;
+}
+
+.example-name h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #00203a;
+}
+
+.example-name p{
+    font-size: 18px;
+    color: #5e5e5e;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.example-amount {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.example-amount p{
+    font-size: 18px;
+    color: #182c3d;
+    text-align: right;
+}
+
+.example-btn{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #00203a;
+    font-weight: bolder;
+    width: 220px;
+    height: 53px;
+    border: 2px solid #00203a;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.our-projects-768px{
+    display: none;
+}
+
+.video {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-content button{
+    width: 84px;
+    height: 84px;
+    border-radius: 100%;
+    background-color: #f2b57c;
+    display: block;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+
+.video-content p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 23px;
+}
+
+.steps{
+    padding: 140px 0;
+}
+
+.steps-name{
+    padding-top: 20px;
+}
+.steps-name p{
+    font-size: 16px;
+    color: #5e5e5e;
+}
+.steps-name h3{
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #313131;
+}
+
+.steps-name h3::after{
+    content: '';
+    width: 41px;
+    height: 1px;
+    background-color: #182c3d;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.steps-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.steps-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/elips.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.steps-design p{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    color: #00203a;
+}
+
+.steps .row{
+    row-gap: 60px;
+}
+
+.dreams{
+    background-image: url(../img/dream.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 0 75px;
+    color: #a3abb1;
+    background-position: 50% 50%;
+}
+
+.dreams-title {
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    margin-bottom: 20px;
+    padding-right: 150px;
+}
+
+.dreams-subtitle {
+    margin-bottom: 40px;
+    font-size: 14px;
+    padding-right: 150px;
+}
+
+
+.dreams input{
+    width: 95%;
+    border: none;
+    background: none;
+    color: #a3abb1;
+}
+
+.dreams input::placeholder{
+    color: #a3abb1;
+    font-size: 14px;
+}
+
+.dreams input:focus{
+    outline: none;
+}
+
+.dreams .inpt{
+    width: 75%;
+    border-bottom: 2px solid #a3abb1;
+}
+
+.inpt{
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+
+.dreams button{
+    width: 75%;
+    height: 65px;
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 0.1em;
+}
+
+.dreams button:hover{
+    background-color: #f8a25a;
+    border: none;
+    transition: .3s;
+}
+
+.dreams-atention{
+    padding-right: 150px;
+    margin-top: 20px;
+}
+
+.dreams-768px{
+    display: none;
+}
+
+.feedback{
+    padding: 150px 0;
+}
+.feedback .carousel-indicators{
+    bottom: -80px;
+}
+
+.comment {
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+    padding: 50px 150px 50px 70px;
+}
+
+.feedback .carousel-indicators [data-bs-target]{
+    background-color: #1a444a;
+    opacity: .3;
+}
+
+.feedback .carousel-indicators .active {
+    opacity: 1;
+}
+
+.feedback .carousel-inner{
+    overflow: visible;
+}
+
+.comment-name {
+    font-size: 22px;
+    color: #313131;
+    font-weight: bolder;
+}
+
+.comment-service {
+    font-size: 16px;
+    color: #efb172;
+    margin: 15px 0 25px;
+    font-weight: bold;
+}
+
+.comment-content {
+    color: #5e5e5e;
+    font-size: 16px;
+}
+
+.comment-photo {
+    position: absolute;
+    right: 10%;
+    top: 12%;
+}
+
+.footer{
+    width: 100%;
+    background-color: #182c3d;
+    padding: 75px 0;
+}
+
+.footer-logo{
+    width: 120px;
+    margin: auto;
+    padding-left: 33px;
+}
+
+.footer-logo img{
+    width: 100%;
+    display: block;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: #ffc487;
+    font-size: 16px;
+}
+
+.footer-socials{
+    width: 150px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footer-socials a{
+    color: white;
+    font-size: 18px;
+}
+
+.footer-content-320px{
+    display: none;
+}
+
+.footer a:hover{
+    color: #ffc487;
+    transition: .3s;
+}
+
+@media(max-width: 1200px){
+    .our-projects ul a{
+        font-size: 18px;
+        color: #7d7d7d;
+        margin-bottom: 50px;
+        padding-right: 30px;
+        font-weight: light;
+    }
+
+    .dreams-atention, .dreams-subtitle, .dreams-title{
+        padding-right: 80px;
+    }
+
+    .dreams-title{
+        font-size: 34px;
+    }
+
+    .dreams input{
+        width: 92%;
+    }
+}
+
+@media(max-width: 1110px){
+    .title, .title-btn, .subtitle{
+        margin-left: 80px;
+    }
+    .subtitle{
+        padding-right: 90px;
+    }
+
+    .display{
+        display: none;
+    }
+
+    .our-projects-768px{
+        display: block;
+    }
+
+    .our-projects-768px a {
+        font-size: 22px;
+        color: #7d7d7d;
+        margin-bottom: 60px;
+        padding-right: 0;
+        font-weight: light;
+    }
+
+    .our-projects-768px a:hover{
+        font-weight: bold;
+        color: #00203a;
+        transition: .3s;
+    }
+
+    .example-amount{
+        width: 176px;
+    }
+
+    .example-amount p{
+        font-size: 22px;
+    }
+
+    .example-btn{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #00203a;
+        font-weight: bolder;
+        width: 330px;
+        height: 65px;
+        border: 2px solid #00203a;
+        margin-top: 43px;
+    }
+
+    .example-photo{
+        width: 100%;
+        height: 390px;
+        background-image: url(../img/example.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .comment{
+        width: 90%;
+        margin-right: 45px;
+        position: static;
+    }
+
+    .comment-photo {
+        right: -50px;
+        top: 12%;
+    }
+
+
+}
+
+@media(max-width: 992px){
+    .title, .title-btn, .subtitle{
+        margin-left: 30%;
+    }
+    .subtitle{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 20px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .title-block{
+        height: 120%;
+    }
+    .title-btn{
+        padding: 15px 20px;
+    }
+
+    .steps-name{
+        margin-left: 20px;
+    }
+
+
+}
+
+@media(max-width: 768px){
+    .header{
+    display: none;
+ }
+    .header-768px {
+    display: block;
+    background-image: url(../img/768px/bg-small.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 57px;
+    }
+
+    .title-btn{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    width: 436px;
+    height: 108px;
+    margin-bottom: 104px;
+    }
+
+    .header-768px h2{
+        font-family: 'Playfair Display';
+        color: white ;
+        font-size: 100px;
+        line-height: 1;
+        margin-top: 204px;
+    }
+    .menu{
+        font-size: 40px;
+    }
+
+    .header-content p{
+        margin-top: 61px;
+        color: white;
+        font-size: 26px;
+        font-family: MullerLight;
+        margin-bottom: 70px;
+    }
+
+    .title-arrow img{
+        margin-bottom: 127px;
+    }
+
+    .about-us{
+        margin-top: 90px;
+        padding: 70px 0 90px;
+    }
+
+    .rooms{
+        display: none;
+    }
+
+    .portfolio-768px{
+        width: 100%;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .portfolio-768px h2{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #00203a;
+        margin-top: 47px;
+    }
+    
+    .living-room-sm {
+        width: 10%;
+        height: 100%;
+        background-image: url(../img/living-room.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .hall-sm {
+        width: 70%;
+        height: 100%;
+        background-image: url(../img/hall.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .hotel-sm {
+        width: 10%;
+        height: 100%;
+        background-image: url(../img/hotel.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .rooms-768px{
+        height: 610px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subtitle-portfolio{
+        margin-bottom: 40px;
+    }
+
+    .portfolio a {
+        font-size: 22px;
+    }
+
+    .portfolio a:hover{
+        border: none;
+    }
+
+    .portfolio-nav{
+        justify-content: space-between;
+    }
+
+    .our-projects{
+        padding: 170px 0 0px;
+    }
+
+    .example-btn{
+        margin-bottom: 200px;
+    }
+
+    .video {
+        height: 810px;
+        background-position: 30% 50%;
+    }
+    
+    .video-content button{
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        font-size: 30px;
+    }
+    
+    .video-content p{
+        width: 430px;
+        color: white;
+        font-size: 22px;
+        margin-top: 36px;
+    }
+
+    .steps .row{
+        row-gap: 30px;
+    }
+
+    .steps{
+        padding: 170px 0 160px;
+    }
+
+    .no-display{
+        display: none;
+    }
+
+    .dreams-768px{
+        display: block;
+    }
+
+    .dreams{
+        background-image: url(../img/768px/form.png);
+    }
+
+    .dreams{
+        text-align: center;
+    }
+
+    .inpt{
+        margin: auto;
+        margin-bottom: 45px;
+    }
+
+    .dreams h2, .dreams p{
+        padding: 0;
+    }
+
+    .dreams h2{
+        font-size: 45px;
+    }
+
+    .dreams-subtitle{
+        font-size: 22px;
+    }
+
+    .dreams-atention{
+        font-size: 18px;
+    }
+
+    .dreams button{
+        border: none;
+        background-color: #f8a25a;
+    }
+}
+
+@media(max-width: 613px){
+    .header-768px {
+        padding-top: 23px;
+        }
+
+    .header-768px h2{
+        font-size: 48px;
+        margin-top: 125px;
+    }
+    
+    .menu{
+        font-size: 26px;
+    }
+
+    .logo-768px img{
+        width: 60px;
+    }
+
+    .header-content p{
+       margin-top: 25px;
+       color: white;
+       font-size: 18px;
+       font-family: MullerLight;
+       margin-bottom: 20px;
+    }
+    
+    .title-arrow img{
+        margin-bottom: 82px;
+    }
+
+    .title-btn{
+        font-size: 14px;
+        width: 222px;
+        height: 54px;
+        margin-bottom: 28px;
+        }
+
+    .example-photo{
+        background-position: 35% 50%;
+    }
+}
+
+@media(max-width: 576px){
+    .down{
+        margin: 0;
+    }
+
+    .about-content{
+        margin-top: 34px;
+    }
+
+    .about-us{
+        margin-top: 0;
+        padding: 30px 0 90px;
+    }
+    
+    .subtitle-portfolio{
+        text-align: center;
+    }
+
+    .portfolio-768px h2{
+        font-size: 18px;
+        margin-top: 23px;
+    }
+
+    .example-amount{
+        display: none;
+    }
+
+    .example-btn{
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        width: 215px;
+        height: 55px;
+    }
+
+    .example-name h3{
+        display: none;
+    }
+
+    .example-name p{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .example-content{
+        padding: 30px 0 110px;
+    }
+
+    .our-projects{
+        padding-top: 95px;
+    }
+
+    .video {
+        height: 620px;
+    }
+    
+    .video-content button{
+        width: 82px;
+        height: 82px;
+        font-size: 20px;
+    }
+    
+    .video-content p{
+        width: 90%;
+        color: white;
+        margin-top: 23px;
+    }
+
+    .steps-name p{
+        font-size: 18px;
+    }
+
+    .steps-name h3{
+        font-size: 24px;
+    }
+
+    .steps{
+        padding: 100px 0 115px;
+    }
+
+    .no-design{
+        display: none;
+    }
+
+    .fa-user, .fa-phone, .fa-envelope{
+        display: none;
+    }
+
+    .dreams-subtitle{
+        font-size: 18px;
+    }
+
+    .dreams-atention{
+        font-size: 16px;
+    }
+
+    .dreams .inpt{
+        width: 100%;
+    }
+
+    .dreams button{
+        width: 100%;
+    }
+
+    .comment {
+        width: 80%;
+        margin: auto;
+        padding: 190px 15px 56px 15px;
+        text-align: center;
+    }
+    
+    .comment-photo {
+        right: 50%;
+        top: 12%;
+        transform: translate(50%, -50%) ;
+    }
+
+    .feedback .subtitle-portfolio{
+        margin-bottom: 84px;
+    }
+
+    .comment-name{
+        font-size: 24px;
+    }
+
+    .comment-service{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+
+    .comment-content{
+        font-size: 20px;
+    }
+
+    .footer-content{
+        display: none;
+    }
+
+    .footer-content-320px{
+        display: block;
+        text-align: center;
+        color: #e0b07d;
+        font-size: 20px;
+    }
+
+    .footer-content-320px p{
+        margin: 0;
+    }
+    
+    .footer-socials{
+        width: 200px;
+        margin: auto;
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+
+    .footer-socials a{
+        font-size: 22px;
+    }
+
+    .footer{
+        padding: 95px 0;
+    }
+}
